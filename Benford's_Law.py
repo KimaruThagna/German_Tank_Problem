@@ -28,3 +28,8 @@ def DigitFrequencyDistribution(suspected_series):
     return freq_dist,first_digit
 # Plot the frequency distribution
 print(DigitFrequencyDistribution(suspected_series))
+freq,digit_list=DigitFrequencyDistribution(suspected_series)
+plt.bar(list(freq.keys()),list(freq.values()))
+plt.xticks(list(freq.keys()) )
+plt.title('BEDFORDs DISTRIBUTION')
+plt.show()

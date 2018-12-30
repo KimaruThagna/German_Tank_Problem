@@ -1,8 +1,11 @@
 '''
 BEDFORD'S LAW
-States that the first digits of wildly collected numbers follow a certain distribution where
-ones are the most followed by twos and so on and 9 are the least. When plotted, the distribution is a smooth curve
-This can be applied to detect fradulent transactions. If fradulent, the frequency distribution will be almost flat but not a smooth curve from a high 1 to a low 9
+t states that in certain datasets the leading digit is distributed in a predictable
+ but non-uniform manner. That is, observations with a lower first digit (1, 2, …)
+ occur more often than those with a higher first digit (… 8, 9). This property arises in many situations
+but is known to occur when the underlying measurements have a log-uniform distribution:
+This can be applied to detect fradulent transactions.
+If fradulent, the frequency distribution will be almost flat but not a smooth curve from a high 1 to a low 9
 
 '''
 import matplotlib.pyplot as plt

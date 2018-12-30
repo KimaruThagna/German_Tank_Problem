@@ -17,7 +17,3 @@ print (EstimatedPopulation([663,816,458,772,584,229,717,882,422]))
 
 #problem 3- How many students have passed through a secondary school?
 print (EstimatedPopulation([1936,1852,1741,2050,2154,2758,1909,1734,1818,2064,3040,2020,1560,5060,4788]))
-
-
-#Further Reading BENFORD'S LAW
-#https://www.theregister.co.uk/2014/05/14/theorums_1_benford/?page=1
